@@ -1,0 +1,442 @@
+
+body{
+
+	background-image: url("../img/bg-body2.png");
+	background-color:#eae9ed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	/*background-attachment: fixed;*/
+
+	font-size: 14px;
+	line-height: 22px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.header {height: 650px;}
+
+@media  screen and (max-width: 720px) {
+     .header {display:none;}
+}
+
+.header__wrapper {
+    width: 1020px;
+    position: relative;
+    margin: 0 auto;
+   
+}
+
+.logo {
+    position: absolute;
+    left: 22px;
+    top: -150px;
+}
+
+.wrapping {
+	position: absolute;
+	top: 380px;
+    left: 0;
+}
+
+.wrapping__link {
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+	text-decoration: none;
+    top: 145px;
+    right: 50px;
+}
+
+.sunmoon {
+	position: absolute;
+	left: 250px;
+	top: -220px;
+	background: url("../img/logo4.png");
+	width: 868px;
+	height: 869px;
+
+}
+
+.sunmoon__title {
+	
+	font-family: serif;
+	font-style: italic;
+	color: #fed943;
+	font-size: 30px;
+	margin-bottom:20px;
+}
+
+.sunmoon__text {
+	position: absolute;
+	left: 310px;
+	top: 360px;
+	font-family: PT serif;
+	font-size: 16px;
+	color: #ffffff;
+	width: 300px;
+	text-align: center;
+}
+
+
+
+
+.sunmoon__link {
+	position: relative;
+	font-family: sans-serif;
+	display:inline-block;
+	font-size: 16px;
+	color: #fed943;
+	margin-top:20px;
+	border-bottom: 1px solid #fed943;
+	text-decoration: none;
+}
+
+.sunmoon__link:after {
+	content: '';
+	width: 15px;
+	height: 16px;
+	background: url("../img/logo4_arrow.png");
+	display: inline-block;
+	position: absolute;
+	    top: 3px;
+    right: -20px;
+}
+
+.menu {
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    width: 135px;      
+}
+
+.menu__item { 
+   margin-bottom: 20px;
+}
+
+.menu__link {
+	color: #3d3146;
+	font-size: 20px;
+	line-height: 25px;
+	text-decoration: none;
+	border-bottom: 1px solid #98909c;
+}
+
+.dots {
+	position: absolute;
+	left: 220px;
+	top: 365px;
+	background: #eec157;
+	width: 186px;
+	height: 186px;
+	border-radius: 186px;
+	box-shadow: inset 0 0 25px rgba(0,0,0,0.1),0 15px  79px rgba(77,55,5,0.3);
+	text-align: center;
+
+}
+
+.dots__marker {
+	width: 40px;
+	height: 48px;
+	background: url("../img/marker.png");
+	margin: 40px auto 15px auto;
+}
+
+.dots__link {
+
+	font-size: 20px;
+	color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+	text-decoration: none;
+}
+
+.main{}
+.main__wrap {
+    width: 1020px;    
+    margin: 0 auto;    
+}
+
+@media  screen and (max-width: 720px) {
+     .main__wrap {
+     	width: 600px;   
+     }
+}
+
+
+.content{
+	margin: 30px 0;
+}
+
+.content__title {
+	color: #3d3146;
+	font-size: 30px;
+	text-decoration: none;
+	line-height: 40px;	
+	font-family: serif;
+	font-style: italic;
+	text-align: center;
+	margin: 30px 0;
+}
+
+
+
+.content__row {
+	overflow: hidden;
+}
+
+
+.content__right {
+	float: left;
+	width: 60%;
+}
+@media  screen and (max-width: 720px) {
+     .content__right {width: 100%;}
+}
+
+.content__left {
+	
+	float: left;
+	width: 40%;
+}
+
+@media  screen and (max-width: 720px) {
+     .content__left {
+     	width: 100%;
+     	text-align:center;
+     }
+}
+.content__text {
+	
+	font-family: PT Sans;
+	font-style: Regular;
+	font-size: 15px;
+	color: #3d3146;    
+	padding: 20px 0 0 20px;
+}
+.content__img{max-width:100%;}
+
+.content__text p {
+	margin-bottom: 20px;
+}	
+
+.advantages {}
+
+.advantages__title {
+	color: #3d3146;
+	font-size: 30px;
+	text-decoration: none;
+	line-height: 40px;	
+	font-family: serif;
+	font-style: italic;
+	text-align: center;
+	margin: 30px 0;
+}	
+
+.advantages__row {
+	overflow: hidden;
+}
+
+.advantages__item {
+	width: 25%;
+	float: left;
+	
+	text-align: center;
+}	
+
+@media  screen and (max-width: 720px) {
+     .advantages__item {
+     	width: 50%;   
+     }
+     .advantages__item:nth-child(3){clear:both;}
+}
+
+.advantages__itemwrap {
+	padding: 0 20px;
+}
+
+.advantages__itemtitle {
+
+}
+
+.advantages__itemimg {
+	position: relative;
+}
+.advantages__itemimg--1 {
+	left: -9px;
+}
+
+.advantages__itemimg--2 {
+	left: -5px;
+}
+
+.advantages__itemimg--3 {
+	left: 3px;
+}
+
+.advantages__itemimg--4 {
+	left: -9px;
+}
+
+
+
+.advantages__itemtitle a{
+	text-decoration: none;
+	font-size: 17px;
+	font-family: PT sans;
+	color: #3d3146;
+	border-bottom: 1px solid #3d3146;
+}
+
+.social {
+	text-align: center;
+	margin-top: 75px;
+    margin-bottom: 75px;
+}
+     
+.social__like-img {
+	max-width: 100%;
+}
+
+.footer {
+	background: #ffffff;
+	display: block;
+    border-top: 3px solid #92868f;
+}
+
+.footer__wrap {
+	margin: 0 auto;
+    width: 1020px;
+}
+
+@media  screen and (max-width: 720px) {
+     .footer__wrap {
+     	width: 600px;   
+     }
+}
+
+.communication {
+
+}
+
+.communication__row {
+	overflow: hidden;
+    padding: 15px 0;
+}
+
+.communication__item1 {
+	float: left;
+	width: 32%;
+	min-height:1px;
+	
+}
+
+@media  screen and (max-width: 720px) {
+     .communication__item1 {
+     	width: 100%; 
+     	text-align: center;  
+     	
+     }
+}
+
+.communication__item2 {
+	float: left;
+	width: 24%;
+	min-height:1px;
+}
+
+@media  screen and (max-width: 720px) {
+     .communication__item2 {
+     	width: 100%; 
+     	text-align:center;
+     	margin:20px 0;
+     }
+}
+
+.communication__item3 {
+	float: left;
+	width: 24%;
+	min-height:1px;
+}
+
+@media  screen and (max-width: 720px) {
+     .communication__item3 {
+     	width: 100%; 
+     	text-align:center;
+     	margin:20px 0; 
+     	
+     }
+
+}
+
+.communication__item4 {
+	float: left;
+	width: 20%;
+	min-height:1px;
+}
+
+@media  screen and (max-width: 720px) {
+     .communication__item4 {
+     	width: 100%;   
+     	text-align: center;
+     }
+}
+
+
+.communication__itemwrap {
+	padding: 0 20px;
+}
+
+.communication__itemimg1 {
+	float: left;
+    margin: -22px 0 0 -33px;
+}
+
+.communication__itemimg2 {
+	float: left;
+    margin: -42px 0 0 -30px;
+}
+
+.communication__itemlink {
+	position: relative;
+	color: #3d3146;
+	display:inline-block;
+	text-decoration: none;
+}
+
+.communication__itemlink:after {
+	content: '';
+    width: 16px;
+    height: 16px;
+    background: url("../img/metadesign.png");
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 33px;
+}
+
+.comunication__phones{
+	position:relative;
+	padding-left:30px;
+	display: inline-block;
+}
+
+.comunication__phones:before{
+	content:'';
+	display:block;
+	position:absolute;
+	top: 20px;
+	left:0;
+	width:28px;
+	height:42px;
+	background:url("../img/russia_logo.png");
+}
+
+.comunication__phones--eng:before{
+
+	background:url("../img/tailand_logo.png");
+}
+
+
+
+
+
